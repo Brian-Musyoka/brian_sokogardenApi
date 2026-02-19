@@ -24,7 +24,7 @@ def signup():
     print(data)
 
     # execute the sql query
-    cursor.execute(sql,data)
+    cursor.execute(sql,data) 
     # save the data
     connection.commit()
     # return the response
